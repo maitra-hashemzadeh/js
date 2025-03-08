@@ -6,44 +6,45 @@
 ...
 */
 
-let number = 1;
+let number = 0;
 let result;
 switch (number) {
   case 0:
-    console.log("Monday");
+    result="Monday";
 
     break;
   case 1:
-    console.log("Tuesday");
+    result="Tuesday";
 
     break;
 
   case 2:
-    console.log("Wednesday");
+    result="Wednesday";
 
     break;
 
   case 3:
-    console.log("Thursday");
+    result="Thursday";
 
     break;
 
   case 4:
-    console.log("Friday");
+    result="Friday";
 
     break;
 
   case 5:
-    console.log("Saturday");
+    result="Saturday";
 
     break;
 
   case 6:
-    console.log("Sunday");
+    result="Sunday";
 
     break;
-
+    
   default:
-    console.log("carfull your number");
+    
 
 }
+console.log(result);
