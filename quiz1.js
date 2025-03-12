@@ -32,4 +32,3 @@ function isEmpty(arr) {
     false
     true
   */
-  
